@@ -1,0 +1,56 @@
+/* Global Classes */
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+#content {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+/* Header */
+header {
+    height: 60px;
+    background-color: rgb(96, 214, 72);
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-right: 20px;
+}
+
+/* Body */
+section {
+    height: 100%;
+    background:url("./restaurant-background.jpeg") rgba(0, 0, 0, 0.651);
+    background-size:cover;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#body-container {
+    min-width: 60vw;
+    max-width: 70vw;
+    min-height: 60vh;
+    max-height: 70vh;
+    background-color: rgba(190, 42, 42, 0.87);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+}
